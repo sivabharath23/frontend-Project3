@@ -1,1 +1,82 @@
-/*  */
+body{
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+
+}
+
+.main-top{
+    background-image: url("IMG-3/Nat3.jpg");
+    overflow: hidden;
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    position:relative;
+    background-size: cover ;
+  
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    color:azure;  
+    left:50%;
+    top:50%;  
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.content h1{
+    color:#fff;
+    letter-spacing: 15px;
+    font-size: 60px;
+}
+.content h1 span{
+   color: black; 
+}
+
+.content a{
+    color:aliceblue;
+    background-color:rgb(126, 126, 232);
+    width:100%;
+    padding:10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.10s ease;
+    
+}
+
+.content a:hover{
+    color:rgb(12, 12, 12);
+    background-color: rgb(255, 255, 255);
+   
+}
+
+@-webkit-keyframes test {
+    
+
+    0%{
+        background-image: url(IMG-3/Nat2.jpg);
+    }
+    20%{
+        background-image: url(IMG-3/Natt-1.jp);
+    }
+    40%{
+        background-image: url(IMG-3/Nat3.jpg);
+    }
+    60%{
+        background-image: url(IMG-3/Nat4.jpg);
+    }
+    80%{
+        background-image: url(IMG-3/Nat-5.jpg);
+    }
+    100%{
+        background-image: url(IMG-3/Nat6.jpg);
+    }
+
+}
+

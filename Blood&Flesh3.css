@@ -1,6 +1,9 @@
-body{
+*{
     padding:0px;
-    margin:0px;
+    margin: 0px;
+}
+
+body{
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
@@ -15,7 +18,6 @@ body{
     justify-content: center;
     position:relative;
     background-size: cover ;
-  
 }
 
 .content{
@@ -23,23 +25,24 @@ body{
     text-align: center;
     justify-content: center;
     color:azure;  
-
-
     left:50%;
     top:50%;  
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
+    text-transform: uppercase;;
 }
+
 .content h1{
     color:#fff;
     letter-spacing: 15px;
     font-size: 60px;
+    margin-bottom:20px;
 }
+
 .content h1 span{
    color: black; 
 }
 
-.content a{
+.content span a{
     color:aliceblue;
     background-color:rgb(126, 126, 232);
     width:100%;
@@ -47,37 +50,33 @@ body{
     border-radius: 20px;
     text-decoration: none;
     font-size: 18px;
-    transition: 0.10s ease;
-    
 }
 
 .content a:hover{
     color:rgb(12, 12, 12);
     background-color: rgb(255, 255, 255) !important;
-   
+    transform:scale(1.1);
+    transition: 0.2s ease;
 }
-
-@keyframes change{
-    
-    0%{
-        background-image: url(IMG-3/Nat2.jpg);
+@keyframes change {
+    0% {
+      background-image: url(IMG-3/Nat2.jpg);
     }
-    20%{
-        background-image: url(IMG-3/Natt-1.jp);
+    20% {
+      background-image: url(IMG-3/Natt-1.jp);
     }
-    40%{
-        background-image: url(IMG-3/Nat3.jpg);
+    40% {
+      background-image: url(IMG-3/Nat3.jpg);
     }
-    60%{
-        background-image: url(IMG-3/Nat4.jpg);
+    60% {
+      background-image: url(IMG-3/Nat4.jpg);
     }
-    80%{
-        background-image: url(IMG-3/Nat-5.jpg);
+    80% {
+      background-image: url(IMG-3/Nat-5.jpg);
     }
-    100%{
-        background-image: url(IMG-3/Nat6.jpg);
+    100% {
+      background-image: url(IMG-3/Nat6.jpg);
     }
-
-}
+  }
 
 /**asgadhgag*/
